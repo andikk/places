@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89fa5676-1e97-41b1-b594-3cca8b2512db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/places/pages/NewPlace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/FormElements/Input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/FormElements/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/UIElements/Map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/UIElements/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/util/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/components/PlaceItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/components/PlaceItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/places/pages/NewPlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/places/pages/NewPlace.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1g5flsPOxo8JyH6VOBqmrCHc4jL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chart2/chart" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\places\src\shared\components" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89fa5676-1e97-41b1-b594-3cca8b2512db" name="Default Changelist" comment="" />
+      <created>1597409527951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597409527951</updated>
+      <workItem from="1597409529212" duration="3533000" />
+      <workItem from="1597413355582" duration="3281000" />
+      <workItem from="1597644917173" duration="14265000" />
+    </task>
+    <task id="LOCAL-00001" summary="git ignore">
+      <created>1597409876888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597409876888</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Router">
+      <created>1597412678827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597412678827</updated>
+    </task>
+    <task id="LOCAL-00003" summary="user item">
+      <created>1597415533344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597415533344</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modal.js">
+      <created>1597649259029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597649259029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="Router" />
+    <MESSAGE value="user item" />
+    <MESSAGE value="Modal.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="649" y="151" key="CommitChangelistDialog2" timestamp="1597649257103">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="649" y="151" key="CommitChangelistDialog2/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597649257103" />
+    <state x="805" y="312" key="FileChooserDialogImpl" timestamp="1597653393607">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="312" key="FileChooserDialogImpl/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597653393607" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1597645811533">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597645811533" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1597645811533">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597645811533" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1597645811532">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597645811532" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1597645811533">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597645811533" />
+    <state x="737" y="273" key="MultipleFileMergeDialog" timestamp="1597412916352">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="737" y="273" key="MultipleFileMergeDialog/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597412916352" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1597649268835">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597649268835" />
+    <state x="721" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1597644920301">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="721" y="381" key="com.intellij.ide.util.TipDialog/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597644920301" />
+    <state x="776" y="348" key="git4idea.merge.GitPullDialog" timestamp="1597644926641">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="776" y="348" key="git4idea.merge.GitPullDialog/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597644926641" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597657243670">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/-2560.0.2048.1112/0.0.2048.1112@0.0.2048.1112" timestamp="1597657243670" />
+  </component>
+</project>
