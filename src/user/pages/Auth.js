@@ -32,7 +32,7 @@ const Auth = (props) => {
 
     if (isLoginMode) {
       try {
-        await sendRequest('http://localhost:5000/api/users/login',
+        const responseData = await sendRequest('http://localhost:5000/api/users/login',
           'POST',
           JSON.stringify({
             email: formState.inputs.email.value,
@@ -40,13 +40,15 @@ const Auth = (props) => {
           }),
           {'Content-Type': 'application/json'}
         );
-        auth.login();
+
+        auth.login(responseData.user.id);
+
       } catch (err) {
 
       }
     } else {
       try {
-        await sendRequest('http://localhost:5000/api/users/signup',
+        const responseData = await sendRequest('http://localhost:5000/api/users/signup',
           'POST',
           JSON.stringify({
             name: formState.inputs.name.value,
@@ -56,7 +58,7 @@ const Auth = (props) => {
           {'Content-Type': 'application/json'}
         );
 
-        auth.login();
+        auth.login(responseData.user.id);
       } catch (err) {
       }
     }
@@ -109,8 +111,8 @@ const Auth = (props) => {
                id="password"
                type="password"
                label="Password"
-               validators={[VALIDATOR_MINLENGTH(5)]}
-               errorText="Please enter a valid password. At least 5 characters."
+               validators={[VALIDATOR_MINLENGTH(6)]}
+               errorText="Please enter a valid password. At least 6 characters."
                onInput={inputHandler} />
         <Button type="submit" disabled={!formState.isValid}>
           {isLoginMode ? 'LOGIN' : 'SIGNUP'}
