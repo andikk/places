@@ -9,6 +9,7 @@ import LoadingSpinner from "../../shared/components/UIElements/LoadingSpinner";
 import ErrorModal from "../../shared/components/UIElements/ErrorModal";
 import { AuthContext } from "../../shared/context/auth-context";
 import { useHttpClient } from "../../shared/hooks/http-hook";
+import ImageUpload from "../../shared/components/FormElements/ImageUpload";
 import './Auth.css';
 
 const Auth = (props) => {
@@ -69,13 +70,18 @@ const Auth = (props) => {
     if (!isLoginMode) {
       setFormData({
         ...formState.inputs,
-        name: undefined
+        name: undefined,
+        image: undefined
       }, formState.inputs.email.isValid && formState.inputs.password.isValid)
     } else {
       setFormData({
         ...formState.inputs,
         name: {
           value: '',
+          isValid: false
+        },
+        image: {
+          value: null,
           isValid: false
         }
       }, false)
@@ -100,6 +106,7 @@ const Auth = (props) => {
                  errorText="Please enter a name"
                  onInput={inputHandler} />
         )}
+        {!isLoginMode && <ImageUpload center id="image" onInput={inputHandler}/>}
         <Input element="input"
                id="email"
                type="email"
