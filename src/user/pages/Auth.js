@@ -44,19 +44,20 @@ const Auth = (props) => {
 
         auth.login(responseData.user.id);
 
+
       } catch (err) {
 
       }
     } else {
       try {
+        const formData = new FormData();
+        formData.append('email', formState.inputs.email.value);
+        formData.append('name', formState.inputs.name.value);
+        formData.append('password', formState.inputs.password.value);
+        formData.append('image', formState.inputs.image.value);
         const responseData = await sendRequest('http://localhost:5000/api/users/signup',
           'POST',
-          JSON.stringify({
-            name: formState.inputs.name.value,
-            email: formState.inputs.email.value,
-            password: formState.inputs.password.value
-          }),
-          {'Content-Type': 'application/json'}
+          formData
         );
 
         auth.login(responseData.user.id);
@@ -106,7 +107,7 @@ const Auth = (props) => {
                  errorText="Please enter a name"
                  onInput={inputHandler} />
         )}
-        {!isLoginMode && <ImageUpload center id="image" onInput={inputHandler}/>}
+        {!isLoginMode && <ImageUpload center id="image" onInput={inputHandler} errorText="Please provide an image" />}
         <Input element="input"
                id="email"
                type="email"
