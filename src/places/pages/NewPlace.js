@@ -46,12 +46,14 @@ const NewPlace = () => {
           formData.append('creator', auth.userId);
           formData.append('image', formState.inputs.image.value);
 
-            await sendRequest(
-              'http://localhost:5000/api/places/',
-              'POST',
-              formData
-              );
-            history.push('/');
+          await sendRequest(
+            'http://localhost:5000/api/places/',
+            'POST',
+            formData, {
+              Authorization: 'Bearer ' + auth.token
+            }
+            );
+          history.push('/');
         } catch (err) {
 
         }
